@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -newer ../ -exec cp -n {} .. \;
+find . -maxdepth 1 -name "*.html" -newer ../ -exec cp --update -t ../ {} + >/dev/null 2>&1
