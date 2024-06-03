@@ -11,7 +11,7 @@ from sys import argv
 if __name__ == "__main__":
     # Fetch the TODO list data
     response = get('https://jsonplaceholder.typicode.com/todos/')
-    data = response.json()    
+    data = response.json() 
     # Fetch the user data
     response2 = get('https://jsonplaceholder.typicode.com/users')
     data2 = response2.json()
